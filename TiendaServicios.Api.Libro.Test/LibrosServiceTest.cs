@@ -99,6 +99,7 @@ namespace TiendaServicios.Api.Libro.Test
         [Fact]
         public async void GuardarLibro()
         {
+            //test sobre git 
             System.Diagnostics.Debugger.Launch();
 
             var options = new DbContextOptionsBuilder<ContextoLibreria>()
